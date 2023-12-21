@@ -18,7 +18,8 @@ const CustomCursorComponent = () => {
         height: '32px',
         borderRadius: '50%',
         background: 'red',
-        transform: `translate(${cursorPosition.x - 16}px, ${cursorPosition.y - 16}px)`
+        transform: `translate(${cursorPosition.x - 16}px, ${cursorPosition.y - 16}px)`,
+        opacity: 0.75
         
       }}>
        

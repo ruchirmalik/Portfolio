@@ -22,7 +22,6 @@
 
 .desktopMenuListItem{
 margin: 2rem;
-cursor: pointer;
 font-size: large;
 }
 
@@ -38,11 +37,10 @@ object-fit: cover;
 height: 2rem;
 width: 2rem;
 margin: 1rem 0.75rem 1rem 0.5rem;
-
-
 }
 
 .desktopMenuBtn{
+cursor: pointer;
 background: #ff3131;
 color: black;
 align-items: center;
