@@ -32,8 +32,17 @@
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 2rem;
+    letter-spacing: 1px;
 }
-
+.bg{
+    position: absolute;
+    top: -4rem;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+  
+}
 .btn{
 background: white;
 color: black;
@@ -54,3 +63,4 @@ border-radius: 2rem;
     margin: 0rem 0.75rem;
     
 }
+

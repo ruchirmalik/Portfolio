@@ -3,25 +3,10 @@ import './intro.css';
 import { Link } from 'react-scroll';
 import hireMeImg from '../../Assets/hireMe.png';
 import Typewriter from 'typewriter-effect';
-
-//<Typewriter options={{strings: ['Front-End Developer', 'Full-Stack Software Engineer'], autoStart: true, loop: true, }}/>
-{/* <Typewriter
-  onInit={(typewriter) => {
-    typewriter.typeString('Hello World!')
-      .callFunction(() => {
-        console.log('String typed out!');
-      })
-      .pauseFor(2500)
-      .deleteChars(0)
-      .callFunction(() => {
-        console.log('All strings were deleted');
-      })
-      .start();
-  }}
-/> */}
-
+//import useCustomCursor from '../../hooks/useCustomCursor'
 
 const Intro = () => {
+  // const cursorPosition = useCustomCursor();
   return (
     <section id="intro">
       <div className="introContent">
@@ -46,9 +31,22 @@ const Intro = () => {
             }} /> 
         </span>
         <p className="introPara"> I turn coffee into code and ideas into innovation. </p>
-        <Link><button className="btn"><img src={hireMeImg} alt="" className="btnImg"/>Hire Me</button></Link>
+        <Link><button className="btn"><img src={hireMeImg} alt="" className="btnImg"/>Hire Me</button></Link> 
       </div>
-      
+    
+      //custom cursor styling
+      {/* <div
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '32px',
+        height: '32px',
+        borderRadius: '50%',
+        background: '#ff3131',
+        transform: `translate(${cursorPosition.x - 16}px, ${cursorPosition.y - 16}px)`,
+      }}
+    /> */}
     </section>
   )
 }
