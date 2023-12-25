@@ -1,9 +1,10 @@
 .navbar{
+    background-color: black;
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
-    margin: 1rem auto;
-    padding: 2rem;
+    margin: 0rem auto;
+    padding: 4rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +22,7 @@
 }
 
 .desktopMenuListItem{
-margin: 2rem;
+margin: 1rem;
 font-size: large;
 }
 
@@ -49,5 +50,24 @@ display: flex;
 justify-content: center;
 padding: 0 1.5rem 0 1.5rem;
 border-radius: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        max-width: 1080px;
+    }
+    
+}
+
+@media screen and (max-width: 1080px) {
+    .navbar{  
+        max-width: 720px;    
+    }  
+}
+
+@media screen and (max-width: 720px) {
+    .navbar{  
+        max-width: 480px;    
+    }  
 }
 

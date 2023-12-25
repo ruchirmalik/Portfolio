@@ -1,0 +1,69 @@
+.techstack{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.techStackTitle{
+    margin-top: 5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+.techStackDesc{
+    margin: 0rem 1rem 5rem 1rem;
+    font-size: 1.25rem;
+    max-width: 75rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.skillImg{
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+    margin: 0rem 10rem;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.individualSkill{
+    margin: 1rem 5.5rem;
+}
+
+.individualSkill:hover{
+color:  red;
+}

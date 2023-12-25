@@ -34,7 +34,7 @@ const Intro = () => {
         <Link><button className="btn"><img src={hireMeImg} alt="" className="btnImg"/>Hire Me</button></Link> 
       </div>
     
-      //custom cursor styling
+      {/* custom cursor styling */}
       {/* <div
       style={{
         position: 'fixed',

@@ -1,6 +1,6 @@
 import React from 'react';
 import useCustomCursor from '../../hooks/useCustomCursor';
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import './cursor.css';
 
 
@@ -9,8 +9,7 @@ const CustomCursorComponent = () => {
 
 
   return (
-    <div
-        style={{
+    <div style={{
         position: 'fixed',
         top: 0,
         left: 0,
@@ -19,8 +18,8 @@ const CustomCursorComponent = () => {
         borderRadius: '50%',
         background: 'red',
         transform: `translate(${cursorPosition.x - 16}px, ${cursorPosition.y - 16}px)`,
-        opacity: 0.75
-        
+        opacity: 0.75, 
+        zIndex: 3  
       }}>
        
     </div>
