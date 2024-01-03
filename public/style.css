@@ -6,10 +6,12 @@
     text-decoration: none;
     background: transparent;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
 }
 
 body{
-    background: rgb(0, 0, 0);
+    background: #121212;
     color: white;
     overflow: hidden;
     overflow-y: scroll; 
