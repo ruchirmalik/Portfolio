@@ -3,15 +3,16 @@ import './intro.css';
 import { Link } from 'react-scroll';
 import hireMeImg from '../../Assets/hireMe.png';
 import Typewriter from 'typewriter-effect';
-//import useCustomCursor from '../../hooks/useCustomCursor'
+import ruchirImg from '../../Assets/introImage.png';
+
 
 const Intro = () => {
-  // const cursorPosition = useCustomCursor();
+  
   return (
     <section id="intro">
       <div className="introContent">
-        <span className="hello">Hello,</span>
-        <span className="introText"> I'm <span className="introName">Ruchir </span> 
+        <span className="hello">Hello 👋 </span>
+        <span className="introText"> My name is <span className="introName">Ruchir Malik. </span> 
           <Typewriter onInit={(typewriter) => {
               typewriter.typeString('a new grad Front-End Developer')
               .callFunction(() => {
@@ -30,23 +31,24 @@ const Intro = () => {
               .start();
             }} /> 
         </span>
-        <p className="introPara"> I turn coffee into code and ideas into innovation. </p>
+        <p className="introPara">
+        I turn coffee into code and ideas into innovation
+           {/* <Typewriter onInit={(typewriter) => {
+              typewriter.typeString(' I turn coffee into code and ideas into innovation...')
+              .callFunction(() => {
+              console.log('String typed out!');
+              })
+              
+              
+              .callFunction(() => {
+              console.log('All strings were deleted');
+              })
+              .start();
+            }} />  */}
+        </p>
         <Link><button className="btn"><img src={hireMeImg} alt="" className="btnImg"/>Hire Me</button></Link> 
       </div>
-    
-      {/* custom cursor styling */}
-      {/* <div
-      style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        width: '32px',
-        height: '32px',
-        borderRadius: '50%',
-        background: '#ff3131',
-        transform: `translate(${cursorPosition.x - 16}px, ${cursorPosition.y - 16}px)`,
-      }}
-    /> */}
+      <img src={ruchirImg} alt="RuchirMalik" className="introImage" />
     </section>
   )
 }

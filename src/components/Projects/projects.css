@@ -1,0 +1,68 @@
+.projects {
+  background-color: #121212;
+  color: white;
+  overflow: hidden;
+  /* min-height: calc(100vh - 4rem); */
+  width: 100vw;
+  max-width: 75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 4rem auto;
+}
+.projectTitle {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-size: 0.5rem;
+  gap: 5px;
+  margin-top: 1rem;
+}
+.tag {
+  font-size: 1rem;
+  background-color: #357960;
+  padding: 0.25rem;
+  border-radius: 5px;
+}
+
+.projectName {
+  color: white;
+  justify-content: left;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 8px;
+  margin: 1rem 2rem;
+}
+
+.projectDesc {
+  color: #a7a7a7;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 1px;
+}
+.individualProject {
+  transition: all 0.3s;
+  /* border: 1px solid gray; */
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #1d1d1d;
+}
+
+.individualProject:hover {
+  box-shadow: 0 0 11px rgba(236, 233, 233, 0.8);
+  scale: 1.01;
+}

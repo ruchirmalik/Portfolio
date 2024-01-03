@@ -1,57 +1,77 @@
-.contactPage{
-    background-color: black;
-    color: white;
-    overflow: hidden;
-    width: 100vw;
-    max-width: 75rem;
-    text-align: center;
-    margin: 0 auto;
+.contactPage {
+  background-color: #121212;
+  color: white;
+  overflow: hidden;
+  width: 100vw;
+  max-width: 75rem;
+  text-align: center;
+  margin: 4rem auto;
 }
-.contactPageTitle{
-    color: white;
-    font-size: 3rem;
-    font-weight: 600;
-    padding-top: 3rem;
-    
-}
-.leftright{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    margin: 4rem;
+.contactPageTitle {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
 }
 
-.contactLinks{
-    margin:2.5rem;
-    width:37.5rem;
+.leftright {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  text-align: center;
+  margin: 4rem;
 }
 
-.Form{
-margin-top: 3rem;
-margin: 2.5rem;
-width:37.5rem;
-display: flex;
-flex-direction: column;
-justify-content: center;
-
+.leftHalf {
+  padding-top: 8rem;
+  margin: 2.5rem;
+  width: 37.5rem;
 }
 
-.name, .email, .msg, .subject{
-    font-size: medium;
-    width: 100%;
-    max-width: 40rem;
-    margin: 0.5rem;
-    color: white;
-    border-radius: 0.5rem;
-    background: rgb(20, 20, 20);
-    border: none;
-    padding: 0.5rem 1rem;
+.rightHalf {
+  margin-top: 3rem;
+  margin: 2.5rem;
+  width: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.linkImg{
-    height: 3rem;
-    width: 3rem;
-    margin:1rem;
+.contactMeDesc {
+  font-weight: 200;
+  letter-spacing: 0px;
+}
+
+.name,
+.email,
+.msg,
+.subject {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  background: rgb(20, 20, 20);
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.linkImg {
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem;
+}
+
+.submitBtn {
+  background: white;
+  color: black;
+  align-items: center;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
 }

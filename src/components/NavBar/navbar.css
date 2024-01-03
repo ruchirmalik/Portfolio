@@ -1,73 +1,71 @@
-.navbar{
-    background-color: black;
-    height: 5rem;
-    width: 100vw;
-    max-width: 75rem;
-    margin: 0rem auto;
-    padding: 4rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-  
+.navbar {
+  background-color: #121212;
+  height: 5rem;
+  width: 100vw;
+  /* max-width: 75rem; */
+  margin: 0rem auto;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  opacity: 0.8;
 }
 
-.websiteLogo{
-    object-fit: cover;
-    height: 6rem;
-    width: 6rem;
-
+.websiteLogo {
+  object-fit: cover;
+  height: 6rem;
+  width: 6rem;
 }
 
-.desktopMenuListItem{
-margin: 1rem;
-font-size: large;
+.desktopMenuListItem {
+  margin: 1rem;
+  font-size: large;
 }
 
-.desktopMenuListItem:hover{
-    color: #ff3131;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid #ff3131;
-    }
-
-.desktopMenuIcon{
-cursor: pointer;
-object-fit: cover;
-height: 2rem;
-width: 2rem;
-margin: 1rem 0.75rem 1rem 0.5rem;
+.desktopMenuListItem:hover {
+  color: #ff3131;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #ff3131;
 }
 
-.desktopMenuBtn{
-cursor: pointer;
-background: #ff3131;
-color: black;
-align-items: center;
-border: none;
-display: flex;
-justify-content: center;
-padding: 0 1.5rem 0 1.5rem;
-border-radius: 2rem;
+.desktopMenuIcon {
+  cursor: pointer;
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem 0.75rem 1rem 0.5rem;
+}
+
+.desktopMenuBtn {
+  cursor: pointer;
+  background: #ff3131;
+  color: black;
+  align-items: center;
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem 0 1.5rem;
+  border-radius: 2rem;
 }
 
 @media screen and (max-width: 1200px) {
-    .navbar{
-        max-width: 1080px;
-    }
-    
+  .navbar {
+    max-width: 1080px;
+  }
 }
 
 @media screen and (max-width: 1080px) {
-    .navbar{  
-        max-width: 720px;    
-    }  
+  .navbar {
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 720px) {
-    .navbar{  
-        max-width: 480px;    
-    }  
+  .navbar {
+    max-width: 480px;
+  }
 }
-

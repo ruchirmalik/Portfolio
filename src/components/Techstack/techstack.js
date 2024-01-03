@@ -14,15 +14,26 @@ import figma from '../../Assets/figma.png';
 import python from '../../Assets/python.png';
 import git from '../../Assets/git.png';
 
-
+import SearchBar from '../SearchBar/searchBar';
 
 const Techstack = () => {
   return (
+
+    
     <section className='techstack'>
         <span className="techStackTitle"> My Tech Stack </span><br/>
-        <span className="techStackDesc">Here are the technologies I have experience working with:</span>
+        <span className="techStackDesc">
+         I am a fast learner. And I take pride in it. <br/>
+         Having worked on diverse projects encompassing UI/UX design, front-end and back-end development, I have already added multiple technologies & programming languages to my 'code web'.
+         However, that doesn't stop me. I'm always learning something new. Always expanding my knowledge base.
+         <br/>
+         <br/>
+         Here are some of the technologies that I have experience working with:
+        </span>
+
+        <SearchBar/>
         
-        <div className="table">
+        {/* <div className="table">
             <div className="row1">
                 <div className="individualSkill">
                     <img src={js} alt="JS" className="skillImg" />
@@ -92,7 +103,7 @@ const Techstack = () => {
 
             
 
-        </div>
+        </div> */}
 
     </section>
   )
