@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import hireMeImg from '../../Assets/hireMe.png';
 import Typewriter from 'typewriter-effect';
 import ruchirImg from '../../Assets/introImage.png';
+import me from '../../Assets/me.png';
 
 
 const Intro = () => {
@@ -50,7 +51,7 @@ const Intro = () => {
               .start();
             }} />  */}
           </p>
-          <Link><button className="btn"><img src={hireMeImg} alt="" className="btnImg" />Hire Me</button></Link>
+          <Link><button className="btn"><img src={me} alt="" className="btnImg" />Learn More About Me</button></Link>
         </div>
 
       </div>

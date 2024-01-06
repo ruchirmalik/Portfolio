@@ -79,6 +79,14 @@
   margin: 2rem 0rem;
   padding: 1rem 1.5rem;
   border-radius: 2rem;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #ff3131;
+  color: black;
+  cursor: pointer;
 }
 
 .btnImg {
@@ -86,7 +94,7 @@
   object-fit: cover;
   height: 2rem;
   width: 2rem;
-  margin: 0rem 0.75rem;
+  margin: 0rem 0.5rem;
 }
 
 @media screen and (max-width: 464px) {
