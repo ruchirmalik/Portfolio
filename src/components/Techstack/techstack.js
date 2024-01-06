@@ -21,7 +21,7 @@ const Techstack = () => {
         <section className='techstack'>
             <span className="techStackTitle"> My Tech Stack </span>
             <span className="techStackDesc">
-                I am a fast learner. And I take pride in it. <br />
+                I am a fast learner. And I take pride in it.
                 Having worked on diverse projects encompassing UI/UX design, front-end and back-end development, I have already added multiple technologies & programming languages to my 'code web'.
                 However, that doesn't stop me. I'm always learning something new. Always expanding my knowledge base.
                 <br />

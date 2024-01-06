@@ -8,11 +8,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   position: sticky;
   top: 0;
   z-index: 3;
-  opacity: 0.99;
+  opacity: 0.95;
 }
 
 .websiteLogo {
@@ -87,10 +86,10 @@
 
 .listItem {
   color: white;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   margin: 0.25rem;
   background: rgb(30, 30, 30);
-  border-radius: 1rem;
+  border-radius: 0.2rem;
 }
 
 /* @media screen and (max-width: 1200px) {
