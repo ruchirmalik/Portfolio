@@ -28,27 +28,28 @@ const Contact = () => {
                 <div className="leftHalf">
                     <div className="contactLinksText">Let's connect. Say hi!</div>
                     <div className="contactLinks">
-                        <Link className="instagram"> <img src={instagram} alt="Insta_Logo" className="linkImg" /> </Link>
-                        <Link className="facebook"> <img src={facebook} alt="FB_Logo" className="linkImg" /> </Link>
-                        <Link className="linkedin"> <img src={linkedin} alt="Linkedin_Logo" className="linkImg" /> </Link>
-                        <Link className="github"> <img src={github} alt="Github_Logo" className="linkImg" /> </Link>
-                    </div>
-                </div>
+                        <a href="https://www.instagram.com/ruchir_malik/" target="_blank"> <img src={instagram} alt="Insta_Logo" className="linkImg" /> </a>
+                        <a href="https://www.facebook.com/ruchir.malik" target="_blank"> <img src={facebook} alt="FB_Logo" className="linkImg" /> </a>
+                        <a href="https://www.linkedin.com/in/ruchirmalik/" target="_blank"> <img src={linkedin} alt="Linkedin_Logo" className="linkImg" /> </a>
+                        <a href="https://github.com/ruchirmalik" target="_blank"> <img src={github} alt="Github_Logo" className="linkImg" /> </a>
 
-                <div className="rightHalf">
-                    <div className="contactMeDesc">I'd love to hear from you! Please fill out the form below and I'll get back to you as soon as possible.  </div> <br />
-                    <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
-                        <input type="text" className="name" placeholder='Your Name' name='your_name' />
-                        <input type="email" className="email" placeholder='Your Email' name='your_email' />
-                        <input type="text" className="subject" placeholder='Subject' name='your_subject' />
-                        <textarea className='msg' name="message" rows="5" placeholder='Your Message' ></textarea>
-                        <button className="submitBtn" type='submit' value='Send'>Submit</button>
-                    </form>
+                    </div>
+
+                    <div className="rightHalf">
+                        <div className="contactMeDesc">I'd love to hear from you! Please fill out the form below and I'll get back to you as soon as possible.  </div> <br />
+                        <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
+                            <input type="text" className="name" placeholder='Your Name' name='your_name' />
+                            <input type="email" className="email" placeholder='Your Email' name='your_email' />
+                            <input type="text" className="subject" placeholder='Subject' name='your_subject' />
+                            <textarea className='msg' name="message" rows="5" placeholder='Your Message' ></textarea>
+                            <button className="submitBtn" type='submit' value='Send'>Submit</button>
+                        </form>
+
+                    </div>
 
                 </div>
 
             </div>
-
 
 
         </section>

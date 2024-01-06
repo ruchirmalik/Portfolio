@@ -90,15 +90,9 @@
   height: 1px;
 }
 
-@media screen and (max-width: 720px) {
-  .skillBarText > p {
-    font-size: 2vw;
-  }
-}
-
 @media screen and (max-width: 464px) {
   .skillBarText > p {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .skillBarText > h2 {
     font-size: 5vw;
