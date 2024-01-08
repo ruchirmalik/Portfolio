@@ -1,11 +1,13 @@
 import React from 'react';
-import './projects.css'
+import './projects.css';
+import github from '../../Assets/GitHub.png';
 
 const Projects = () => {
   return (
     <div>
       <section className="projects">
         <span className="projectTitle">Projects</span>
+
 
         <div className="projectinfo">
 
@@ -21,17 +23,19 @@ const Projects = () => {
                 •	Successfully delivered a feature-rich web application that met all client requirements and surpassed user expectations. <br />
               </p>
 
-              <div className="tags">
+              <div className="projectFooter">
+                <div className="tags">
 
-                <p className="tag">React.js</p>
-                <p className="tag">JavaScript</p>
-                <p className="tag">Java</p>
-                <p className="tag">Spring</p>
-                <p className="tag">GCP</p>
-                <p className="tag">Docker</p>
-                <p className="tag">Slack</p>
+                  <p className="tag">React.js</p>
+                  <p className="tag">JavaScript</p>
+                  <p className="tag">Java</p>
+                  <p className="tag">Spring</p>
+                  <p className="tag">GCP</p>
+                  <p className="tag">Docker</p>
+                  <p className="tag">Slack</p>
 
-
+                </div>
+                <div><a href="https://github.com/CPSC319-2022/zenith" target="_blank" className='projectLink'><img src={github} alt="Github_Logo" className="gitImg" /></a></div>
               </div>
             </div>
           </div>
@@ -46,15 +50,17 @@ const Projects = () => {
                 •	Achieved multi-directional linkage between visualizations, facilitating the exploration of correlations and trends across different facets of Airbnb listings in Rome; implemented a range slider feature, empowering users to refine data based on ratings.<br />
                 •	Delivered a successful project that provided actionable insights, empowering users with the knowledge needed to make strategic property investments in the Airbnb market, contributing to the project's overall success and positive user impact.<br />
               </p>
+              <div className="projectFooter">
+                <div className="tags">
 
-              <div className="tags">
+                  <p className="tag">D3.js</p>
+                  <p className="tag">JavaScript</p>
+                  <p className="tag">HTML</p>
+                  <p className="tag">CSS</p>
+                  <p className="tag">Data Pre-processing</p>
 
-                <p className="tag">D3.js</p>
-                <p className="tag">JavaScript</p>
-                <p className="tag">HTML</p>
-                <p className="tag">CSS</p>
-                <p className="tag">Data Pre-processing</p>
-
+                </div>
+                <div><a href="https://github.com/ruchirmalik/When-In-Rome" target="_blank" className='projectLink'><img src={github} alt="Github_Logo" className="gitImg" /></a></div>
               </div>
             </div>
           </div>
@@ -68,18 +74,17 @@ const Projects = () => {
                 •	Orchestrated the development of a responsive website using JS, PHP, HTML, and CSS, coupled with MySQL for seamless data retrieval.<br />
                 •	Implemented an appointment management system, empowering coaches to create and delete appointments, enabling members to view, book, and cancel appointments with various coaches, and granting administrative oversight for comprehensive operations control<br />
               </p>
-
-              <div className="tags">
-
-
-                <p className="tag">TypeScript</p>
-                <p className="tag">PHP</p>
-                <p className="tag">HTML</p>
-                <p className="tag">CSS</p>
-                <p className="tag">Data Normalization</p>
-                <p className="tag">E/R Diagram</p>
-                <p className="tag">Relational Schema</p>
-
+              <div className="projectFooter">
+                <div className="tags">
+                  <p className="tag">TypeScript</p>
+                  <p className="tag">PHP</p>
+                  <p className="tag">HTML</p>
+                  <p className="tag">CSS</p>
+                  <p className="tag">Data Normalization</p>
+                  <p className="tag">E/R Diagram</p>
+                  <p className="tag">Relational Schema</p>
+                </div>
+                <div><a href="https://github.com/ruchirmalik/FunTown-Sports-Centre" target="_blank" className='projectLink'><img src={github} alt="Github_Logo" className="gitImg" /></a></div>
               </div>
             </div>
           </div>

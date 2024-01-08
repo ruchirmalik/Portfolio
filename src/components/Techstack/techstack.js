@@ -23,7 +23,7 @@ const Techstack = () => {
             <span className="techStackDesc">
                 I am a fast learner. And I take pride in it.
                 Having worked on diverse projects encompassing UI/UX design, front-end and back-end development, I have already added multiple technologies & programming languages to my 'code web'.
-                However, that doesn't stop me. I'm always learning something new. Always expanding my knowledge base.
+                However, that doesn't stop me. I'm always learning something new, always expanding my knowledge base.
                 <br />
                 <br />
                 Here are some of the technologies that I have experience working with:
