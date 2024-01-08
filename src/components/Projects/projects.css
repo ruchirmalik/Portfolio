@@ -16,6 +16,7 @@
   color: white;
   font-size: 3rem;
   font-weight: 600;
+  margin: 1.5rem;
 }
 
 .tags {
@@ -25,7 +26,7 @@
   justify-content: left;
   font-size: 0.5rem;
   gap: 5px;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 .tag {
   font-size: 1rem;
@@ -35,7 +36,7 @@
 }
 
 .projectName {
-  color: white;
+  color: #ff3131;
   justify-content: left;
 }
 
@@ -66,4 +67,31 @@
 .individualProject:hover {
   box-shadow: 0 0 11px rgba(236, 233, 233, 0.8);
   scale: 1.01;
+}
+
+.projectLink {
+  font-size: 0rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* or 0 */
+}
+.gitImg {
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+.projectFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 464px) {
+  .projectFooter {
+    gap: 2rem;
+  }
 }

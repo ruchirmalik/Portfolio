@@ -5,6 +5,7 @@ import hireMeImg from '../../Assets/hireMe.png';
 import Typewriter from 'typewriter-effect';
 import ruchirImg from '../../Assets/introImage.png';
 import me from '../../Assets/me.png';
+import location from '../../Assets/location.png';
 
 
 const Intro = () => {
@@ -51,7 +52,12 @@ const Intro = () => {
               .start();
             }} />  */}
           </p>
-          <Link><button className="btn"><img src={me} alt="" className="btnImg" />Learn More About Me</button></Link>
+          {/* <Link><button className="btn"><img src={me} alt="" className="btnImg" />Learn More About Me</button></Link> */}
+
+          <div className="location">
+            <img src={location} alt="" className="locationImg" />
+            <p>Vancouver, Canada </p>
+          </div>
         </div>
 
       </div>
