@@ -28,11 +28,19 @@
   gap: 5px;
   /* margin-top: 1rem; */
 }
+
+.tag:hover {
+  scale: 1.1;
+  background-color: white;
+  color: #357960;
+}
+
 .tag {
   font-size: 1rem;
   background-color: #357960;
   padding: 0.25rem;
   border-radius: 5px;
+  transition: all 0.3s;
 }
 
 .projectName {
