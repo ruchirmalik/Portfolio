@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css';
 import { Link } from 'react-scroll';
 import emailjs from '@emailjs/browser';
-import facebook from '../../Assets/Facebook.png';
+import facebook from '../../Assets/facebook.png';
 import instagram from '../../Assets/instagram.png';
 import github from '../../Assets/GitHub.png';
 import linkedin from '../../Assets/linkedin.png';
