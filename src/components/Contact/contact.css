@@ -86,6 +86,7 @@
   margin: 2rem auto;
   padding: 1rem 1.5rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 464px) {
