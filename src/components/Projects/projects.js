@@ -33,6 +33,7 @@ const Projects = () => {
                   <p className="tag">GCP</p>
                   <p className="tag">Docker</p>
                   <p className="tag">Slack</p>
+                  <p className="tag">CI/CD</p>
 
                 </div>
                 <div><a href="https://github.com/CPSC319-2022/zenith" target="_blank" className='projectLink'><img src={github} alt="Github_Logo" className="gitImg" /></a></div>

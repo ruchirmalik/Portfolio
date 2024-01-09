@@ -19,6 +19,9 @@ import php from '../../Assets/php.png';
 import figma from '../../Assets/figma.png';
 import python from '../../Assets/python.png';
 import git from '../../Assets/git.png';
+import illus from '../../Assets/illustrator.png';
+import npm from '../../Assets/npm.png';
+import tailwind from '../../Assets/tailwind.png';
 
 const responsive = {
     superLargeDesktop: {
@@ -51,8 +54,8 @@ const SearchBar = () => {
         { id: 2, image: js, name: "JavaScript" },
         { id: 3, image: ts, name: "TypeScript" },
         { id: 4, image: cplusplus, name: "C++" },
-        { id: 5, image: reactjs, name: "React" },
-        { id: 6, image: nodejs, name: "Node" },
+        { id: 5, image: reactjs, name: "React.js" },
+        { id: 6, image: nodejs, name: "Node.js" },
         { id: 7, image: d3js, name: "D3" },
         { id: 8, image: mysql, name: "MySQL" },
         { id: 9, image: mongodb, name: "MongoDB" },
@@ -60,6 +63,9 @@ const SearchBar = () => {
         { id: 11, image: figma, name: "Figma" },
         { id: 12, image: python, name: "Python" },
         { id: 13, image: git, name: "Git" },
+        { id: 14, image: illus, name: "Adobe Illustrator" },
+        { id: 15, image: npm, name: "npm" },
+        { id: 16, image: tailwind, name: "Tailwind CSS" }
     ];
 
     const [input, setInput] = useState("");
@@ -116,7 +122,7 @@ const SearchBar = () => {
                         {filteredData.map((skill) => (
 
                             <div className='row' key={skill.id}>
-                                <img src={skill.image} alt={skill.name} style={{ width: '50px', height: '50px' }} />
+                                <img src={skill.image} alt={skill.name} title={skill.name} style={{ width: '50px', height: '50px' }} />
                             </div>
 
                         ))}
