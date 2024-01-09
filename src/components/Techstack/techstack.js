@@ -13,6 +13,7 @@ import php from '../../Assets/php.png';
 import figma from '../../Assets/figma.png';
 import python from '../../Assets/python.png';
 import git from '../../Assets/git.png';
+import illus from '../../Assets/illustrator.png';
 
 import SearchBar from '../SearchBar/searchBar';
 
