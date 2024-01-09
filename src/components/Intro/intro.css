@@ -4,7 +4,6 @@
   width: 100vw;
   max-width: 95rem;
   margin: 0rem auto;
-
   position: relative;
 }
 .introPage {
@@ -128,8 +127,8 @@
     padding-bottom: 0;
   }
   .introImage {
-    height: 18rem;
-    width: 18rem;
+    height: 15rem;
+    width: 15rem;
     object-fit: cover;
     margin-bottom: 0;
   }
@@ -137,5 +136,9 @@
   .introText {
     font-size: 2rem;
     margin-top: 1rem;
+  }
+
+  .location {
+    margin-bottom: 2rem;
   }
 }
