@@ -18,8 +18,8 @@ const Intro = () => {
         </div>
         <div className="introContent">
           <span className="hello">Hello 👋 </span>
-          <span className="introText"> My name is <span className="introName">Ruchir Malik. </span>
-            <Typewriter onInit={(typewriter) => {
+          <span className="introText"> My name is <span className="introName">Ruchir Malik, </span>
+            <Typewriter options={{ wrapperClassName: 'typewriter' }} onInit={(typewriter) => {
               typewriter.typeString('a new grad Front-End Developer')
                 .callFunction(() => {
                   console.log('String typed out!');
