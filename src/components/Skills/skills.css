@@ -102,3 +102,18 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .skillBarText > h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .skillBarText > p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .skillBar {
+    padding: 0.75rem;
+  }
+}
