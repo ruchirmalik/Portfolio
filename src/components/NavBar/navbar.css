@@ -16,8 +16,9 @@
 
 .websiteLogo {
   object-fit: cover;
-  height: 6rem;
-  width: 6rem;
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
 }
 
 .desktopMenuListItem {
