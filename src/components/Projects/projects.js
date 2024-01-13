@@ -81,7 +81,7 @@ const Projects = () => {
                   <p className="tag">TypeScript</p>
                   <p className="tag">PHP</p>
                   <p className="tag">HTML</p>
-                  <p className="tag">CSS</p>¸
+                  <p className="tag">CSS</p>
                   <p className="tag">Data Normalization</p>
                   <p className="tag">E/R Diagram</p>
                   <p className="tag">Relational Schema</p>
