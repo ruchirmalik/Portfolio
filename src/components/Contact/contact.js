@@ -79,32 +79,33 @@ const Contact = () => {
                         <a href="https://github.com/ruchirmalik" target="_blank"> <img src={github} alt="Github_Logo" className="linkImg" /> </a>
 
                     </div>
-                    <div className="rightHalf">
-                        {sent ? <h2>Thanks for reaching out! I'll get back to you soon</h2> :
-                            emailSendError ? <h2>{emailSendError}</h2> :
-                                <>
-                                    <div className="contactMeDesc">I'd love to hear from you! Please fill out the form below and I'll get back to you as soon as possible.  </div> <br />
-                                    <form action="" ref={form} onSubmit={sendEmail}>
-                                        <input type="text" className="name" placeholder='Your Name' name='your_name' required />
-                                        {/* {nameError && <p>{nameError}</p>} */}
-                                        <input type="email" className="email" placeholder='Your Email' name='your_email' required />
-                                        {/* {emailError && <p>{emailError}</p>} */}
-                                        <input type="text" className="subject" placeholder='Subject' name='your_subject' required />
-                                        {/* {subjectError && <p>{subjectError}</p>} */}
-                                        <textarea className='msg' name="message" rows="5" placeholder='Your Message' required ></textarea>
-                                        {/* {messageError && <p>{messageError}</p>} */}
-                                        <button className="submitBtn" type="submit">Submit</button>
-                                    </form>
-                                </>
-                        }
-                    </div>
-
+                </div>
+                <div className="rightHalf">
+                    {sent ? <h2>Thanks for reaching out! I'll get back to you soon</h2> :
+                        emailSendError ? <h2>{emailSendError}</h2> :
+                            <>
+                                <div className="contactMeDesc">I'd love to hear from you! Please fill out the form below and I'll get back to you as soon as possible.  </div> <br />
+                                <form action="" ref={form} onSubmit={sendEmail}>
+                                    <input type="text" className="name" placeholder='Your Name' name='your_name' required />
+                                    {/* {nameError && <p>{nameError}</p>} */}
+                                    <input type="email" className="email" placeholder='Your Email' name='your_email' required />
+                                    {/* {emailError && <p>{emailError}</p>} */}
+                                    <input type="text" className="subject" placeholder='Subject' name='your_subject' required />
+                                    {/* {subjectError && <p>{subjectError}</p>} */}
+                                    <textarea className='msg' name="message" rows="5" placeholder='Your Message' required ></textarea>
+                                    {/* {messageError && <p>{messageError}</p>} */}
+                                    <button className="submitBtn" type="submit">Submit</button>
+                                </form>
+                            </>
+                    }
                 </div>
 
             </div>
 
 
-        </section>
+
+
+        </section >
     )
 }
 
