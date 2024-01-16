@@ -15,7 +15,9 @@ const Navbar = () => {
       <div className="desktopMenu">
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-200} duration={1000} className="desktopMenuListItem">Home</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-180} duration={1000} className="desktopMenuListItem">Skills</Link>
+        <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-160} duration={1000} className="desktopMenuListItem">Experience</Link>
         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-160} duration={1000} className="desktopMenuListItem">Projects</Link>
+
       </div>
       <button className="desktopMenuBtn" onClick={() => {
         document.getElementById('contactPage')?.scrollIntoView({ behavior: 'smooth' }); //'?' is for optional chaining, prevents uncaught runtime error if the element is null
@@ -27,6 +29,7 @@ const Navbar = () => {
       <div className="mobileMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-200} duration={1000} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-180} duration={1000} className="listItem" onClick={() => setShowMenu(false)}>Skills</Link>
+        <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-180} duration={1000} className="listItem" onClick={() => setShowMenu(false)}>Experience</Link>
         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-160} duration={1000} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
         <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-160} duration={1000} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
       </div>
