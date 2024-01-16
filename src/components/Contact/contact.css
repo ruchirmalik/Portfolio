@@ -30,7 +30,7 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  width: 37.5rem;
+  width: 30rem;
 }
 .contactLinkText {
   text-align: center;
@@ -44,10 +44,11 @@
 .rightHalf {
   margin-top: 3rem;
   margin: auto;
-  width: 37.5rem;
+  width: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 2rem;
 }
 
 .contactMeDesc {
