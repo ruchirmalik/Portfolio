@@ -4,7 +4,7 @@ import './footer.css';
 const Footer = () => {
     return (
         <footer className='footer'>
-            Copyright &#169; 2023 Ruchir Malik. All rights reserved.
+            Copyright &#169; 2024 Ruchir Malik. All rights reserved.
         </footer>
     )
 }
