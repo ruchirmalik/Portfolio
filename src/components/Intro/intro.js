@@ -20,17 +20,21 @@ const Intro = () => {
           <span className="hello">Hello 👋 </span>
           <span className="introText"> My name is <span className="introName">Ruchir Malik, </span>
             <Typewriter options={{ wrapperClassName: 'typewriter' }} onInit={(typewriter) => {
-              typewriter.typeString('a new grad Front-End Developer')
+              typewriter.typeString('a new grad Developer')
                 .callFunction(() => {
                   console.log('String typed out!');
                 })
-                .pauseFor(1000)
-                .deleteChars(19)
-                .changeDeleteSpeed(10)
-              typewriter.typeString('Full-Stack Software Engineer.')
+                .pauseFor(500)
+                .deleteChars(9)
+                .changeDeleteSpeed(20)
+              typewriter.typeString('Designer')
                 .callFunction(() => {
                   console.log('String typed out!');
                 })
+                .pauseFor(500)
+                .deleteChars(8)
+                .changeDeleteSpeed(20)
+              typewriter.typeString('Analyst')
                 .callFunction(() => {
                   console.log('All strings were deleted');
                 })
