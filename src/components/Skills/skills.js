@@ -4,7 +4,7 @@ import './skills.css';
 import frontend from '../../Assets/frontendVector.png';
 import backend from '../../Assets/backend.png';
 import uiux from '../../Assets/uiux.png';
-
+// Learning React Basics
 const Skills = () => {
     const [selectedId, setSelectedId] = useState(null);
 
